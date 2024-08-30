@@ -1,0 +1,242 @@
+@media only screen and (min-width: 1024px) and (max-width: 1319px){
+    .all-game {
+        justify-content: center;
+    }
+
+    .review-text p {
+        max-width: 100%;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+
+    .review {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    .top-header {
+        align-items: center;
+    }
+
+    .top-nav ul {
+        display: flex;
+        gap: 25px;
+    }
+
+    .virtual {
+        background-color: rgb(255 255 255 / 5%);
+    }
+
+    .banner-button {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .review {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 767px){
+
+    /* .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: white;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+        display: block;
+      }
+
+      .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 32px;
+        color: #16205F;
+        display: block;
+        transition: 0.3s;
+        display: block;
+      }
+
+      .sidenav a:hover {
+        color: rgba(255, 153, 0, 1);
+        display: block;
+      }
+
+      .head span.menu{
+        display: block;
+      }
+
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+        display: block;
+      }
+
+      .head span img{
+        display: block;
+      }
+
+      .menu {
+        display: block;
+    } */
+
+
+    .top-nav ul {
+        display: none;
+    }
+
+    .cart{
+        display: none;
+    }
+
+    .banner-text p {
+        font-size: 16px;
+    }
+
+    .banner-text h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .banner-button {
+        justify-content: center;
+    }
+
+    button.btn {
+        font-size: 11px;
+        padding: 10px 38px;
+    }
+
+    .uniqe h3 {
+        font-size: 21px;
+    }
+
+    .text-info {
+        gap: 30px;
+    }
+
+    .uniqe p {
+        font-size: 13px;
+    }
+
+    .logo li {
+        font-size: 16px;
+    }
+
+    .logo {
+        padding: 14px;
+    }
+
+    .logo-slide li {
+        height: 0;
+    }
+
+    .fav-text h2 {
+        font-size: 34px;
+    }
+
+    .fav-image img{
+        max-width: 306px;
+    }
+
+    .fav-text p {
+        margin-bottom: 0;
+    }
+
+    .virtual {
+        flex-direction: column;
+        background-color: rgb(255 255 255 / 5%);
+        padding: 44px 11px 0 21px;
+    }
+
+    .virtual-text h2 {
+        font-size: 28px;
+        max-width: 296px;
+        line-height: 40px;
+    }
+
+    .virtual-image img {
+        margin-top: 15px;
+    }
+
+    .virtual-text {
+        order: -1;
+    }
+
+    .fav-text button.btn {
+        flex: 0 0 45%;
+        padding: 13px 25px;
+    }
+
+    .fav-text .banner-button {
+        flex-wrap: wrap;
+    }
+
+    .all-game {
+        justify-content: center;
+    }
+
+    .review {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .review-detail {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .user-image img {
+    max-width: 50px;
+    max-height: 50px;
+    }
+
+    .verify {
+        gap: 19px;
+    }
+
+    .user-text h3 {
+        font-size: 17px;
+    }
+
+    .user-text p {
+        font-size: 9px;
+    }
+
+    .review-text p {
+        text-align: center;
+    }
+
+    .footer-detail {
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+
+    footer {
+        padding: 85px 0;
+    }
+
+    .all-logos ul {
+        flex-wrap: wrap;
+    }
+
+    .social {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 767px){}
